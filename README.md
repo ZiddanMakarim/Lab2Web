@@ -172,5 +172,5 @@ contoh di atas adalah file css **EKSTERNAL** nya!
 
  ## BILA ADA KEKURANGAN MOHON DIMAAFKAN DAN TERIMA KASIH
 -------------------------------------------------------
- ## ZIDAN MAKARIM 
+ ## ZIDDAN MAKARIM 
  -------------------------------------------------------------------------------------------------
