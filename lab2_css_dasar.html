@@ -5,6 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Dasar</title>
+    <!-- Menempatkan CSS Eksternal -->
+    <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+    <!-- Mendeklarasikan CSS Internal -->
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            min-height: 90px;
+            border-bottom: 1px solid black;
+        }
+        h1{
+            font-size: 25px;
+            color: blue;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i{
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,7 +39,11 @@
     <!-- CSS ID Selector -->
     <div id="main">
         <h1>Hello World</h1>
-        <p>Kami sedang belajar HTML dan CSS Dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+        <!-- Tag (p) menggunakan CSS Inline -->
+        <p style="text-align: center; color: royalblue;">Kami sedang belajar HTML dan CSS Dasar, pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+    <!-- CSS Class Selector -->
+    <a class="button btn-primary"href="#main">Informasi Selengkapnya.</a>
     </div>
+
 </body>
 </html>
